@@ -42,25 +42,25 @@ Usage:
     sched help            Prints out this help doc
 ```
 
-The first case is simply typing the **sched** command. This will just dump
+ * The first case is simply typing the **sched** command. This will just dump
 the contents of your schedule file to the terminal stdout. If no file is found
 you will be asked to create one
 
-Next is the **rm** subcommand. Typing **sched rm** will completely delete your
+* Next is the **rm** subcommand. Typing **sched rm** will completely delete your
 schedule file
 
-To open your schedule file simply use the **ed** subcommand. Typing **sched ed**
-will open your schedule file in **nano** for editing.
+ * To open your schedule file simply use the **ed** subcommand. Typing
+**sched ed** will open your schedule file in **nano** for editing.
 
-The **add** subcommand will add the entire contents of ```<entry>``` to the
+* The **add** subcommand will add the entire contents of ```<entry>``` to the
 schedule file. Simply type **sched add <entry>** and it will be appended to
 the schedule.
 
-To read the schedule without editing and with scrolling, just use the **read**
+* To read the schedule without editing and with scrolling, just use the **read**
 subcommand. Typing **sched read** will open the schedule file in an interactive
 and scrollable window.
 
-Finally the **help** subcommand will print the usage message to stdout.
+* Finally the **help** subcommand will print the usage message to stdout.
 
 ## Uninstalling
 To uninstall is simple. Using your favorite editor, simply remove the alias
