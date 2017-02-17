@@ -75,8 +75,8 @@ print_schedule () {
       case $answer in
       "y") create_schedule; break;;
       "yes") create_schedule; break;;
-      "n") echo outro; break;;
-      "no") echo outro; break;;
+      "n") echo $outro; break;;
+      "no") echo $outro; break;;
       esac
 
       # answer not acceptable
