@@ -12,6 +12,7 @@ Next you're going to append the shell script path to your .bashrc or .zshrc:
 ```
 echo "# alias for sched" >> "$HOME/.`basename $SHELL`rc"
 echo "alias sched=$PWD/sched.sh" >> "$HOME/.`basename $SHELL`rc"
+source "$HOME/.`basename $SHELL`rc"
 ```
 
 To check that it worked, run the tail command:
