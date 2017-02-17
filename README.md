@@ -26,7 +26,7 @@ You should get output like this:
 .
 .
 # sched alias
-alias sched=/Users/TigerJ/CS/Projects/sched/sched.sh
+alias sched=/path/to/your/repository/sched/sched.sh
 ```
 
 ## Usage
