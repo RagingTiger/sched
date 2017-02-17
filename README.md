@@ -1,8 +1,9 @@
 ## Installation
 To configure your environment to use the script follow the below steps. First
-cd into the **sched** repository:
+clone and cd into the **sched** repository:
 
 ```
+git clone https://github.com/RagingTiger/sched
 cd sched/
 ```
 
