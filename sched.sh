@@ -3,12 +3,12 @@
 # globals
 help_doc="
 Usage:
-    sched         Simply prints out current schedule
-    sched rm      Removes entire schedule file
-    sched ed      Opens schedule file in nano editor
-    sched add     Adds new entry to schedule
-    sched read    Allows for scrollable reading of schedule
-    sched help    Prints out this help doc"
+    sched                 Simply prints out current schedule
+    sched rm              Removes entire schedule file
+    sched ed              Opens schedule file in nano editor
+    sched add <entry>     Adds new entry to schedule
+    sched read            Allows for scrollable reading of schedule
+    sched help            Prints out this help doc"
 schedfile="$HOME/.schedule"
 
 # functions
