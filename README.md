@@ -26,7 +26,7 @@ You should get output like this:
 .
 .
 .
-# sched alias
+# alias for sched
 alias sched=/path/to/your/repository/sched/sched.sh
 ```
 
