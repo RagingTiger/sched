@@ -49,7 +49,7 @@ you will be asked to create one
 * Next is the **rm** subcommand. Typing **sched rm** will completely delete your
 schedule file
 
- * To open your schedule file simply use the **ed** subcommand. Typing
+* To open your schedule file simply use the **ed** subcommand. Typing
 **sched ed** will open your schedule file in **nano** for editing.
 
 * The **add** subcommand will add the entire contents of ```<entry>``` to the
