@@ -44,7 +44,7 @@ Usage:
 
  * The first case is simply typing the **sched** command. This will just dump
 the contents of your schedule file to the terminal stdout. If no file is found
-you will be asked to create one
+you will be asked if you want to create one
 
 * Next is the **rm** subcommand. Typing **sched rm** will completely delete your
 schedule file
