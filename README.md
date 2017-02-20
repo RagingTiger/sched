@@ -1,5 +1,6 @@
 ## Installation
 To configure your environment to use the script follow the below steps. First
+download and install [ShellLib](https://github.com/RagingTiger/ShellLib) then
 clone and cd into the **sched** repository:
 
 ```
@@ -10,8 +11,8 @@ cd sched/
 Next you're going to append the shell script path to your .bashrc or .zshrc:
 
 ```
-echo "# alias for sched" >> "$HOME/.`basename $SHELL`rc"
-echo "alias sched=$PWD/sched.sh" >> "$HOME/.`basename $SHELL`rc"
+printf "\n# alias for sched" >> "$HOME/.`basename $SHELL`rc"
+printf "\nalias sched=$PWD/sched.sh" >> "$HOME/.`basename $SHELL`rc"
 source "$HOME/.`basename $SHELL`rc"
 ```
 
