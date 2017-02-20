@@ -1,6 +1,6 @@
 ## Installation
 To configure your environment to use the script follow the below steps. First
-download and install [ShellLib](https://github.com/RagingTiger/ShellLib) then
+download and install [ShellLib](https://ragingtiger.github.io/ShellLib/) then
 clone and cd into the **sched** repository:
 
 ```
